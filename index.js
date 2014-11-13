@@ -35,9 +35,10 @@ module.exports = function (compare) {
             indent(longest, i.name);
 
             var time = Math.round((1 / i.hz) * 1000).toString();
-            process.stdout.write(time + ' ms ');
+            process.stdout.write(time + ' ms');
 
             if ( i.name != compare ) {
+                process.stdout.write(' ');
                 indent(slowest, time);
                 var times;
                 if ( i.hz > compareHz ) {
