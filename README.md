@@ -1,4 +1,4 @@
-# Gulp Bench Summary [![Build Status](https://travis-ci.org/ai/gulp-bench-summary.png)](https://travis-ci.org/ai/gulp-bench-summary)
+# Gulp Bench Summary [![Build Status](https://travis-ci.org/ai/gulp-bench-summary.svg)](https://travis-ci.org/ai/gulp-bench-summary)
 
 Display gulp-bench results in nice table view.
 
